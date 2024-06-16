@@ -65,28 +65,28 @@ window.addEventListener("DOMContentLoaded", () => {
 		small.classList.remove('calculating__choose-item_active')
 		medium.classList.remove('calculating__choose-item_active')
 		high.classList.remove('calculating__choose-item_active')
-		calcResult.innerHTML = 3200
+		calcResult.innerHTML = 2100
 	})
 	small.addEventListener('click', () => {
 		small.classList.add('calculating__choose-item_active')
 		low.classList.remove('calculating__choose-item_active')
 		medium.classList.remove('calculating__choose-item_active')
 		high.classList.remove('calculating__choose-item_active')
-		calcResult.innerHTML = 2900
+		calcResult.innerHTML = 2500
 	})
 	medium.addEventListener('click', () => {
 		medium.classList.add('calculating__choose-item_active')
 		small.classList.remove('calculating__choose-item_active')
 		low.classList.remove('calculating__choose-item_active')
 		high.classList.remove('calculating__choose-item_active')
-		calcResult.innerHTML = 2500
+		calcResult.innerHTML = 2900
 	})
 	high.addEventListener('click', () => {
 		high.classList.add('calculating__choose-item_active')
 		small.classList.remove('calculating__choose-item_active')
 		medium.classList.remove('calculating__choose-item_active')
 		low.classList.remove('calculating__choose-item_active')
-		calcResult.innerHTML = 2100
+		calcResult.innerHTML = 3200
 	})
 
 });
